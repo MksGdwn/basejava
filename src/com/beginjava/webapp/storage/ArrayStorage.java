@@ -1,3 +1,7 @@
+package com.beginjava.webapp.storage;
+
+import com.beginjava.webapp.model.Resume;
+
 import java.util.Arrays;
 
 /**

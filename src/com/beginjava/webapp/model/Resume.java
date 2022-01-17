@@ -1,3 +1,5 @@
+package com.beginjava.webapp.model;
+
 /**
  * Initial resume class
  */
