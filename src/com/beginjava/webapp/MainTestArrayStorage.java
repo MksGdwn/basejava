@@ -7,7 +7,7 @@ import com.beginjava.webapp.storage.ArrayStorage;
  * Test for your com.beginjava.webapp.storage.ArrayStorage implementation
  */
 public class MainTestArrayStorage {
-    static final ArrayStorage ARRAY_STORAGE = new ArrayStorage();
+    private static final ArrayStorage ARRAY_STORAGE = new ArrayStorage();
 
     public static void main(String[] args) {
         Resume r1 = new Resume();
@@ -28,6 +28,8 @@ public class MainTestArrayStorage {
 
         printAll();
         ARRAY_STORAGE.delete(r1.getUuid());
+        printAll();
+        ARRAY_STORAGE.update(r2);
         printAll();
         ARRAY_STORAGE.clear();
         printAll();
